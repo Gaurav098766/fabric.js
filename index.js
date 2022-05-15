@@ -151,8 +151,8 @@ canvas.on('mouse:wheel', (opt)=> {
   var pointer = canvas.getPointer(opt.e);
   var zoom = canvas.getZoom();                   // Inbuild fabric js function to return the current zoom level of the object.
   zoom = zoom + delta/200;
-  if (zoom > 20) zoom = 20;
-  if (zoom < 0.01) zoom = 0.01;
+  if (zoom > 5) zoom = 5;               // zoom in max is set to 5
+  if (zoom < 1) zoom = 1;               // zoom out max is set to 1 
   canvas.zoomToPoint({ x: opt.e.offsetX, y: opt.e.offsetY }, zoom);
   reiniciarZoom();
   opt.e.preventDefault();
