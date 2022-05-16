@@ -1,6 +1,6 @@
 # fabric.js
 
-Here's a link of the project https://fabric-js-sigma.vercel.app/
+Here's the link of the project:  https://fabric-js-sigma.vercel.app/
 
 
 1.) The only programming language which is used in this project is javascript with some technologies such as Node.js and adequate amount HTML , CSS. 
